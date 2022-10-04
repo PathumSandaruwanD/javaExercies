@@ -3,6 +3,9 @@ public class oopConstructor {
         human oneHuman = new human("Bob",14,56.00);
         System.out.println(oneHuman.name);
 
+        //using the eat method to the oneHuman object
+        oneHuman.eat();
+
     }
 
     public static class human{
@@ -12,10 +15,16 @@ public class oopConstructor {
         int age;
         double weight;
 
+        //constructor for human class
         human(String name, int age, double weight){
             this.name= name;
             this.age = age;
             this.weight=weight;
+        }
+
+        //methods for human class
+        void eat(){
+            System.out.print(this.name+" is eating");
         }
 
     }

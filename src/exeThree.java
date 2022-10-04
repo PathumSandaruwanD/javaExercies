@@ -11,6 +11,7 @@ public class exeThree {
         rectangle newRectangle = new rectangle(height,length);
         System.out.print("Area of rect" + newRectangle.area);
 
+
     }
 
     public static class rectangle{
