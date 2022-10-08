@@ -1,4 +1,6 @@
 public class methodOverrinding {
+    //method overriding gives ability to make its own implementation of inherit method from its superclass
+
     public static class animal{
         void speak(){
             System.out.println("the animals speak");
