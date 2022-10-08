@@ -6,6 +6,9 @@ public class superKeyword {
             this.name=name;
             this.age=age;
         }
+        public String toString(){
+            return name+"\n"+age;
+        }
     }
     public static class dog extends animals{
         int numbersOfLegs;
@@ -19,6 +22,6 @@ public class superKeyword {
 
     public static void main(String[] args) {
         dog germanSherped = new dog("Boby",4,4);
-        System.out.println(germanSherped.name);
+        System.out.println(germanSherped.toString());
     }
 }
